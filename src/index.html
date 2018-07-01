@@ -60,6 +60,15 @@
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/jhmYWNEW-Y8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 	</section>
+	<form action="form.php" method="POST">
+		<label for="name">Imię</label> 
+		<input type="text" name="name" id="name"> 
+		<label for="email">E-mail</label> 
+		<input type="email" name="email" id="email">
+		<textarea name="message" id="message" rows="3" required/></textarea> 
+		<input type="submit" name="submit" value="Wyślij"> 
+		<input type="reset" name="submit" value="Usuń dane">
+	</form>
 	<section class="icon-section container">
 		<div class="icon fb-fans">
 			<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> 
